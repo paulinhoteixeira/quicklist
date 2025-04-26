@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>quicklist</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="desktop-only">
+    <img src="./assets/logo.svg" alt="">
+  </header>
+  <main>
+    <p class="back"><- Voltar </p>
+        <h1>Compras da Semana</h1>
+        <input type="text" id="new-item" placeholder="Adicione um novo item">
+        <button>Adicionar item</button>
+
+        <ul>
+          <li>
+            <div class="select-item">
+              <div class="checkmark"></div>
+              <input type="checkbox">
+              <p>Pão de Forma</p>
+            </div>
+            <img src="./assets/delete.svg" alt="">
+          </li>
+          
+          <li>
+            <div class="select-item">
+              <div class="checkmark"></div>
+              <input type="checkbox">
+              <p>Café Preto</p>
+            </div>
+
+            <img src="./assets/delete.svg" alt="">
+          </li>
+
+          <li>
+            <div class="select-item">
+              <div class="checkmark"></div>
+              <input type="checkbox">
+              <p>Suco de laranja</p>
+            </div>
+
+            <img src="./assets/delete.svg" alt="">
+          </li>
+
+          <li>
+            <div class="select-item">
+              <div class="checkmark"></div>
+              <input type="checkbox">
+              <p>Bolacha</p>
+            </div>
+
+            <img src="./assets/delete.svg" alt="">
+          </li>
+        </ul>
+
+        <div class="item-removed show-alert">
+          <img src="./assets/alert.svg" alt="">
+          <p>O item foi removido da lista</p>
+          <img src="./assets/close.svg" alt="">
+        </div>
+
+  </main>
+
+
+</body>
+
+</html>
