@@ -180,11 +180,11 @@ ul {
 }
 
 .show-alert {
-  display: flex;
+  display: none;
 }
 
 .desktop-only {
-  /* display: none; */
+  display: none;
 }
 
 
@@ -204,4 +204,9 @@ and (width >= 64em) {
     place-self: center;
 
   }
+
+  .desktop-only {
+    display: flex;
+  }
+  
 }
